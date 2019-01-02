@@ -1,0 +1,728 @@
+@media screen and (min-width:361px) and (max-width:480px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    text-align: left;
+    background-color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 12px;
+    width: width;
+    border-right: 1px solid black;
+    background-repeat: no-repeat;
+  }
+
+  #top-bar{
+    height: 40px;
+    width: width;
+    border-bottom: 1px solid #333;
+    background-color: #fff;
+  }
+
+  #top-bar-container {
+    position: relative;
+  }
+
+  #top-bar-left-position{
+    position: absolute;
+    left: 20px;
+  }
+  #top-bar-right-position{
+    position: absolute;
+    right: 25px;
+  }
+  .top-bar-left ul{
+    list-style-type: none;
+    margin-top: -8px;
+    padding: 1px;
+    font-size: 10px;
+    font-weight: 100;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #adasd;
+  }
+  .top-bar-left ul li {
+    margin-left: -15px;
+    text-align: -webkit-match-parent;
+  }
+  .top-bar-left ul li::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .top-bar-left ul li a {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+  }
+  .top-bar-left-email{
+    margin-top: -5px;
+    padding-left: 15px;
+  }
+
+
+  #top-bar #top-bar-container .top-bar-left ul li a:hover {
+      color: #000;
+      cursor: pointer;
+  }
+
+
+  .top-bar-right {
+  float: right;
+  height: 40px;
+  overflow: hidden;
+  }
+
+  .top-bar-right::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .top-bar-right ul{
+    list-style-type: none;
+    font-size: 10px;
+    margin-top: -5px;
+    font-weight: 100;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #adasd;
+  }
+  .top-bar-right ul li {
+    float: left;
+    margin-left: 5px;
+    text-align: -webkit-match-parent;
+  }
+
+  .top-bar-right ul li::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .top-bar-right ul li a {
+    display: block;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 1px;
+    text-decoration: none;
+  }
+
+
+  #top-bar #top-bar-container .top-bar-right ul li a:hover {
+      cursor: pointer;
+  }
+
+
+
+  #nav-bar{
+    height: 60px;
+    width: width;
+    font-size: 10px;
+    font-weight: 100;
+    border-bottom: 1px solid #333;
+    background-color: #fff;
+  }
+
+  #nav-bar-container {
+    position: relative;
+  }
+
+  #nav-bar-left-position{
+    position: absolute;
+    left: 20px;
+  }
+  #nav-bar-right-position{
+    position: absolute;
+    right: 20px;
+  }
+
+  .nav-bar-right {
+  float: right;
+  height: 60px;
+  }
+
+  .nav-bar-right::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .nav-bar-right ul{
+    list-style-type: none;
+    font-size: 11px;
+    margin-top: 0px;
+    font-weight: 600;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #adasd;
+  }
+  .nav-bar-right ul li {
+    float: left;
+    margin-left: 0px;
+    text-align: -webkit-match-parent;
+  }
+
+  .nav-bar-right ul li::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .nav-bar-right ul li a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    padding-top: 20px;
+    text-decoration: none;
+  }
+  #nav-bar #nav-bar-container .nav-bar-right ul li a:hover {
+      color: #FFA500;
+      cursor: pointer;
+  }
+
+  #banner {
+    height: 500px;
+    width: width;
+    overflow: hidden;
+    background-image: url("../Assets/Muktinath/photo/1.jpg");
+    background-size: cover;
+    background-position: -25px 0px ;
+    border-bottom: 1px solid black;
+    background-repeat: no-repeat;
+  }
+  #banner-back{
+    height: 500px;
+    width: width;
+    border: 1px solid black;
+    background-color: black;
+    color: White;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 120px;
+
+  }
+  #banner #banner-back a{
+    display: block;
+    text-align: center;
+    padding: 1px;
+    text-decoration: none;
+  }
+
+  #banner #banner-back a:hover {
+      cursor: pointer;
+  }
+  #banner #banner-back .btn1{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  #banner #banner-back .btn1:hover{
+    opacity: 0.7;
+    color: black;
+  }
+
+  #banner1 {
+    height: 130px;
+    width: width;
+    overflow: hidden;
+    background-image: url("../Assets/Muktinath/photo/giphy2.gif");
+    background-size: cover;
+    background-position: 0px -250px ;
+    border-bottom: 1px solid black;
+    position: relative;
+  }
+  #banner1-container {
+    height: 130px;
+    width: width;
+    overflow: hidden;
+    background: #000;
+    opacity: 0.6;
+  }
+
+  .banner1-div {
+    float: left;
+    margin-top: 15px;
+    margin-left: 40px;
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    border-radius: 100px;
+    border: 1px solid black;
+  }
+
+  .banner1-div-background {
+    float: left;
+    margin-top: 10px;
+    margin-left: 35px;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 100px;
+    background: #000;
+    border: 1px solid black;
+  }
+  #banner1 #banner1-div1:hover +  #banner1-div1-background{
+    background: #f4511e;
+  }
+  #banner1 #banner1-div2:hover +  #banner1-div2-background{
+    background: #f4511e;
+  }
+
+  #banner1 #banner1-div3:hover +  #banner1-div3-background{
+    background: #f4511e;
+  }
+
+  .banner1-div-background::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .banner1-div::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #banner1-div1 {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    overflow: hidden;
+    background-image: url("../Assets/Muktinath/photo/Security-stock.jpg");
+    background-size: cover;
+    background-position: 0px 0px ;
+    z-index: 2;
+  }
+  #banner1-div2{
+    position: absolute;
+    left: 30%;
+    top: 0px;
+    overflow: hidden;
+    background-image: url("../Assets/Muktinath/photo/camera.jpg");
+    background-size: cover;
+    background-position: 0px 0px ;
+    z-index: 2;
+  }
+  #banner1-div3{
+    position: absolute;
+    left: 60%;
+    top: 0px;
+    overflow: hidden;
+    background-image: url("../Assets/Muktinath/photo/24hour.png");
+    background-size: cover;
+    background-position: -31px -1px ;
+    z-index: 2;
+  }
+
+  #banner1-div1-background {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    overflow: hidden;
+    z-index: 1;
+    transition: background 0.5s linear;
+  }
+  #banner1-div2-background{
+    position: absolute;
+    left: 30%;
+    top: 0px;
+    overflow: hidden;
+    z-index: 1;
+    transition: background 0.5s linear;
+  }
+  #banner1-div3-background{
+    position: absolute;
+    left: 60%;
+    top: 0px;
+    z-index: 1;
+    transition: background 0.5s linear;
+  }
+
+  #banner2 {
+    height: 300px;
+    width: width;
+    background: #fff;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+  }
+  #banner2-div1 {
+    width: 50%;
+    height: 400px;
+    background-image: url("../Assets/Muktinath/photo/speech.jpeg");
+    background-size: 200% 400px;
+    background-position: -20px -75px ;
+    border-right: 1px solid black;
+    background-repeat: no-repeat;
+  }
+  #banner2-div2 {
+    width: 50%;
+    height: 300px;
+    background-color: #EEE;
+    border-left: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 0.8;
+  }
+  .banner2-div2-heading{
+    margin-top: 5px;
+    font-family: "Rubik";
+  }
+  .banner2-div2-boldheading{
+    font-family: "Rubik";
+    font-weight: 800;
+    margin-top: -10px;
+    font-size: 14px;
+  }
+  .banner2-div2-para{
+    font-family:monospace;
+    font-size: 10px;
+    text-align: justify;
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .banner2-div{
+    float:left;
+  }
+  .banner2-div::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #banner4{
+    padding-top: 20px;
+    width: width;
+    height: 200px;
+    color: #FFF;
+    background-image: url("../Assets/Muktinath/photo/camera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -300px 0px ;
+    border-bottom: 1px solid black;
+
+  }
+  #banner4 h3{
+    text-align: center;
+  }
+
+
+  .banner4-div{
+    float: left;
+    margin-top:80px;
+    width: 25%;
+    height: 50%;
+    border: 1px solid black;
+  }
+  .banner4-div::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #banner4-div1{
+    background-image: url("../Assets/Muktinath/photo/nist.JPG");
+    background-size: cover;
+    background-position: 0px 0px ;
+  }
+  #banner4-div2{
+    background-image: url("../Assets/Muktinath/photo/hospital.jpeg");
+    background-size: cover;
+    background-position: 0px 0px ;
+  }
+  #banner4-div3{
+    background-image: url("../Assets/Muktinath/photo/bank.jpeg");
+    background-size: cover;
+    background-position: -20px 0px ;
+  }
+  #banner4-div4{
+    background-image: url("../Assets/Muktinath/photo/industry.png");
+    background-size: cover;
+    background-position: 0px 0px ;
+  }
+  #banner5{
+    padding-top: 50px;
+    width: width;
+    height: 300px;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+
+  }
+  #banner5 h3{
+    text-align: center;
+  }
+  .banner5-div{
+    float: left;
+    margin-top:40px;
+    width: 17%;
+    height: 40%;
+    border: 1px solid black;
+    margin-left: 10px;
+    position: relative;
+  }
+  .banner5-div::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #banner5-div1{
+    background-image: url("../Assets/Muktinath/photo/member3.jpg");
+    background-size: cover;
+    background-position: -10px 0px ;
+  }
+  #banner5 #banner5-div1:hover {
+     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #banner5 #banner5-div2:hover {
+     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #banner5 #banner5-div3:hover {
+     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #banner5 #banner5-div4:hover {
+     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #banner5 #banner5-div5:hover {
+     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #banner5-div2{
+    background-image: url("../Assets/Muktinath/photo/member4.jpg");
+    background-size: cover;
+    background-position: -10px 0px ;
+  }
+
+  #banner5-div3{
+    background-image: url("../Assets/Muktinath/photo/member5.jpg");
+    background-size: cover;
+    background-position: -10px 0px ;
+  }
+
+  #banner5-div4{
+    background-image: url("../Assets/Muktinath/photo/Member1.jpg");
+    background-size: cover;
+    background-position: -10px 0px ;
+  }
+
+  #banner5-div5{
+    background-image: url("../Assets/Muktinath/photo/member2.jpg");
+    background-size: cover;
+    background-position: -10px 0px ;
+  }
+
+  .banner5-div1-name{
+    height: auto;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+    font-size: 9px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: -15px;
+  }
+
+  #banner6{
+    padding-top: 60px;
+    width: width;
+    height: 500px;
+    border-bottom: 2px solid black;
+  }
+  #banner6 h3{
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .banner6-div{
+    float: left;
+    width: 25%;
+    height: 42%;
+    border: 1px solid black;
+  }
+  .banner6-div::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #banner6-div1{
+    background-image: url("../Assets/Muktinath/photo/p1.jpg");
+    background-size: cover;
+    background-position: -20px 0px ;
+  }
+  #banner6-div2{
+    background-image: url("../Assets/Muktinath/photo/p2.jpg");
+    background-size: cover;
+    background-position: -80px 0px ;
+  }
+  #banner6-div3{
+    background-image: url("../Assets/Muktinath/photo/p3.jpg");
+    background-size: cover;
+    background-position: -20px 0px ;
+  }
+  #banner6-div4{
+    background-image: url("../Assets/Muktinath/photo/p4.jpg");
+    background-size: cover;
+    background-position: -25px 0px ;
+  }
+  #banner6-div5{
+    background-image: url("../Assets/Muktinath/photo/p5.jpg");
+    background-size: cover;
+    background-position: -20px 0px ;
+  }
+  #banner6-div6{
+    background-image: url("../Assets/Muktinath/photo/p6.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: -90px 0px ;
+  }
+  #banner6-div7{
+    background-image: url("../Assets/Muktinath/photo/p7.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: -60px 0px ;
+  }
+  #banner6-div8{
+    background-image: url("../Assets/Muktinath/photo/p8.jpg");
+    background-size: cover;
+    background-position: -30px 0px ;
+  }
+
+
+  #banner7{
+    height: 700px;
+    width: width;
+
+    border-bottom: 1px solid black;
+  }
+
+  .banner7-div{
+    float: left;
+  }
+   #banner7-div1{
+     height: 700px;
+     width: 50%;
+     padding-top: 30px;
+     text-align: center;
+     border: 1px solid black;
+   }
+  #banner7-div2{
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 600px;
+    width: 30%;
+    border: 1px solid black;
+    background-color: #21252b;
+    color: #fff;
+  }
+
+  #banner8{
+    height: 500px;
+    width: width;
+    background-image: url("../Assets/Muktinath/photo/blur.jpg");
+    background-size: cover;
+    background-attachment:  fixed;
+    position: relative;
+    background-position: 0px 0px ;
+    border-bottom: 1px solid black;
+  }
+
+  #banner8-div{
+    height: 400px;
+    position: relative;
+    top: 10%;
+    left: 3%;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  #showContainer {
+    /* Main wrapper for all images */
+    width: 670px;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .navButton {
+    /* Make buttons look nice */
+    cursor: pointer;
+    float: left;
+    width: 25px;
+    height: 22px;
+    padding: 10px;
+    margin-right: 5px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background: #000000;
+    opacity: 0.65;
+    user-select: none;
+  }
+  .navButton:hover {
+    opacity: 1;
+  }
+  .caption {
+    float: right;
+  }
+  .imageContainer:not(:first-child) {
+    /* Hide all images except the first */
+    display: none;
+  }
+
+
+  #banner9 {
+    height: 150px;
+    width: width;
+    border-bottom: 1px solid black;
+    background-color: #AD3D00;
+  }
+  #banner9-container{
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 4%;
+    padding-left: 20%;
+    font-size: 30px;
+
+  }
+  #banner9-container .btn{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  #banner9-container .btn:hover{
+    opacity: 0.6;
+    color: black;
+  }
+
+
+
+}
